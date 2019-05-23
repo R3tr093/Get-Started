@@ -1,14 +1,17 @@
 # Premier pas avec Git
 
 ## Initialiser les tous !
-
 Pour qu'un dossier puisse être traiter par github il faut qu'il sois initialiser, quand on initialise un dossier cela crée à l'intérieur un dossier .git, c'est grâce à ce dossier que vous pourrez utiliser les capacités de github.
 
 Si un dossier ou ces racines ascendante ne contient pas de dossier .git vous ne pourrez pas utiliser github.
 
 Lorsque qu'un repository est créer depuis github, il contient automatiquement et forcément un dossier .git
 
-Mais si vous désirez envoyer un de vos dossier existant sur votre ordinateur, vers votre compte gitHub il faudra l'initialiser, prêt pour votre première commande ?
+Une bonne pratique est de créer un dossier qui va contenir vos projets sur git, vous pouvez l'appelez GIT par exemple.
+
+Maintenant avec votre toute première commande vous allez initialiser ce dossier, depuis votre terminal.
+
+Naviguer dans votre arborescence vers le dossier cible et lancez la commande suivante ::
 
 git init
 
@@ -33,7 +36,7 @@ Une fois votre repository créer, cliquez le bouton clone or download, vous aure
 
 Rendez vous dans le dossier dans lequelle vous souhaiter stocker votre repository, ensuite entrez la commande suivante :
 
-git clone lienGithub
+git clone votreLienGitHub
 
 
 Ceci aura pour effet de créeer un clone du repository qui se trouvait sur gitHub dans le dossier à partir du quelle vous avez entrer la commande.
@@ -43,9 +46,9 @@ Bien joué, vous avez créer votre premier clone.
 
 ## Modifier, commentez !
 
-Vous allez maintenant effectuer votre travail sur votre repository, une fois votre travail vous pourrez laissez un commit.
+Vous allez maintenant effectuer votre travail sur votre repository, une fois votre travail achevé vous pourrez laissez un commit.
 
-Un commit est similaire à un commentaire daté, qui permet de garder un oeil sur les modifications apportez a votre repository.
+Un commit est similaire à un commentaire, il permet de garder un oeil sur les modifications apportez à  votre repository.
 
 Grâce aux commits vous saurez gardez une trace de vos modifications, pour faire un commit entrer la commande suivante ::
 
@@ -56,22 +59,27 @@ Le commit est maintenant accessible sur github, mais aussi depuis votre terminal
 
 Idéalement un commit est cours et précis, de cette maniére un rapide coup d'oeil vous indiquera en quelques mots le travail effectuer.
 
-<!-- INSERER LA METHODE POUR ACCEDER AU COMMIT DEPUIS LE TERMINAL -->
+Les commits conserve la date du commit, un commentaire, un SHA ( l'identifiant du commit), son auteur et son adresse mail github.
 
+Pour voir les commits effectuer sur une branche, vous pouvez utilisez la commande suivante ::
+
+git log
+
+Cette commande va afficher tout les commits effectuer sur la branche.
 
 ## Ajouter, pushez !
 
 
-Une fois que vous avec modifier un fichier, et que vous avez commentez votre travail avec un commit ensuite envoyer votre travail depuis votre terminal vers github.
+Une fois que vous avec modifier un fichier, et que vous avez commentez votre travail avec un commit, il ne vous reste plus qu'a envoyer votre travail depuis votre terminal vers le repository sur github.
 
-Avant de pouvoir pushez votre nouveau dossier il va falloir ajouter les fichiers que vous avez modifier pour faire ceci vous allez avoir besoin d'une nouvelle commande :
+Avant de pouvoir pushez votre dossier avec les modifications vers votre repository, il va falloir ajouter les fichiers que vous avez modifier pour faire ceci vous allez avoir besoin d'une nouvelle commande :
 
 git add monFichier.txt
 
 
-Cette commande va ajouter ce fichier vers  votre dossier .git, félicitation votre fichier est prêt à être pushez.
+Cette commande va ajouter ce fichier vers le  dossier .git, félicitation votre fichier est prêt à être pushez.
 
-Pushez signifie que votre vous allez envoyer votre dossier vers votre compte github, vous allez mettre à jour le travail que vous avez effectuer sur votre ordinateur vers votre repository, une dernière commande ( oui encore ) :
+Pushez signifie que votre vous allez envoyer votre dossier vers votre son repository sur github, une dernière commande ( oui encore ) :
 
 git push
 
