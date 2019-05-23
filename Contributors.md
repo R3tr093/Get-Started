@@ -22,3 +22,5 @@ Ajouter ou corriger les informations manques ou erronées.
 ## Et si j'ai tout casser ?
 
 Pas de problème je ferais un backup à chaque fusion de Update-1 vers master ;) 
+
+Envoyer un message quand même, au cas ou je m'en rend compte 10 ans plus tard...
