@@ -1,6 +1,6 @@
 # Créer des branches 
 
-## C'est quoi une branche ?
+## Quoi de neuf vieille branche ?
 
 Une branche, est un élément que vous allez souvent être amenés à utiliser lorsque vous travaillez sur un repository.
 
@@ -20,21 +20,25 @@ Lorsque vous initialisez un repository Git , votre code est placé dans la branc
 
 Voici les commandes qui vous permettent de manipuler les branches :
 
-Pour voir les branches présentes dans votre repository , utilisez la commande :: git branch 
+Pour voir les branches présentes dans votre repository , utilisez la commande :: git branch -a 
 
-Elle vous retournera les branches présentes , et ajouteras une étoile devant la branche dans laquelle vous êtes placés.
+Elle vous retournera toutes les branches présentes , et ajouteras une étoile devant la branche dans laquelle vous êtes placés.
 
 Pour créer un nouvelle branche , il vous suffit d'ajouter le nom de la branche à créer à la suite de la commande suivante :
 
 git branch nouvelle-branche
 
-Pour vous placer dans une autre branche à l'intérieur de votre repository , vous allez avoir besoin du mot clé checkout.
+Votre nouvelle branche hérite du contenu de la branche depuis laquelle vous l'avez instancier.
+
+Pour vous placer dans une autre branche à l'intérieur de votre repository , vous allez de nouveau avoir  besoin du mot clé checkout.
 
 Git checkout nouvelle branche.
 
 Une fois sur cette branche vous pouvez toujours utlilisez les commandes git status et et git log
 
 Cela vous permettras de procéder à quelques vérifications avant de travailler sur la branche.
+
+Vous pouvez également utilisez le commutateur -f pour forcer la commande si une erreur survient.
 
 ## Fusionnez les branches
 
@@ -45,6 +49,8 @@ Git checkout brancheA
 Puis vous pouvez fusionner une branche dans la branche sur laquelle vous vous situez avec la commande git merge 
 
 git merge brancheB
+
+Bravo vous savez comment fusionner vos branches !
 
 
 
