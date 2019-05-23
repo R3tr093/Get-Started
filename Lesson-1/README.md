@@ -45,7 +45,7 @@ Rendez vous dans le dossier dans lequel vous souhaiter stocker votre repository,
 git clone votreLienGitHub
 
 
-Ceci aura pour effet de créeer un clone du repository qui se trouvait sur gitHub dans le dossier à partir du quelle vous avez entrer la commande.
+Ceci aura pour effet de créer un clone du repository qui se trouvait sur gitHub dans le dossier à partir du quelle vous avez entrer la commande.
 
 Bien joué, vous avez créer votre premier clone. 
 
@@ -56,10 +56,9 @@ Vous allez maintenant effectuer votre travail sur votre repository, une fois vot
 
 Un commit est similaire à un commentaire, il permet de garder un oeil sur les modifications apportez à  votre repository.
 
-Grâce aux commits vous saurez gardez une trace de vos modifications, pour faire un commit entrer la commande suivante ::
+Grâce aux commits vous saurez gardez une trace de vos modifications, pour faire un commit entrer la commande suivante
 
-
-git commit -m " Correction du bug."
+* git commit -m " Correction du bug." *
 
 Le commit est maintenant accessible sur github, mais aussi depuis votre terminal.
 
@@ -73,7 +72,7 @@ git log
 
 Cette commande va afficher tout les commits effectuer sur la branche.
 
-## Ajouter, pushez !
+## Ajoutez, pushez !
 
 
 Une fois que vous avec modifier un fichier, et que vous avez commentez votre travail avec un commit, il ne vous reste plus qu'a envoyer votre travail depuis votre terminal vers le repository sur github.
@@ -82,6 +81,11 @@ Avant de pouvoir pushez votre dossier avec les modifications vers votre reposito
 
 git add monFichier.txt
 
+Si vous avez beaucoup de fichiers, utilisez plutot la commande 
+
+git add .
+
+En ajoutant un . plutot que le nom d'un fichier le terminal ajouteras alors tout les fichiers.
 
 Cette commande va ajouter ce fichier vers le  dossier .git, félicitation votre fichier est prêt à être pushez.
 
@@ -90,6 +94,10 @@ Pushez signifie que votre vous allez envoyer votre dossier vers votre son reposi
 git push
 
 Cette commande envoye le dossier courant vers github, pour autant que vous soyez en droit de le faire bien sur.
+
+Il peut y avoir plusieurs raisons qui empêchent les commandes comme push de s'exécuter, mais pas de panique nous allons voir cela plus tard.
+
+Bravo, vous savez maintenant ajouter un fichier depuis votre ordinateur vers son repository github !
 
 
 <!-- INSERER CONCLUSION DE FIN ? -->
