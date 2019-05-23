@@ -1,6 +1,6 @@
 # Annuler des changements
 
-> Attention les tutoriels suivants sont inspirés de [This link](https://learngitbranching.js.org/)
+> Attention les tutoriels suivants sont inspirés de [https://learngitbranching.js.org/](https://learngitbranching.js.org/)
 > Nous ferons de notre mieux pour y ajouter des informations supplémentaires
 
 
