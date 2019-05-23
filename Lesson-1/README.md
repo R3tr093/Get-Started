@@ -22,7 +22,7 @@ Et voilà, votre dossier à été initialiser.
 
 La première étape consiste à créer un repository depuis github.
 
-Pour cela rendez vous dans le menu en cliquant sur votre avatar et sélectionner créer un your repositories.
+Pour cela rendez vous dans le menu en cliquant sur votre avatar et sélectionner :: your repositories.
 
 Depuis cette page vous trouverez un bouton new, cliquez dessus.
 
