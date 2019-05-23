@@ -18,6 +18,8 @@ git checkout -f master
 
 La commande checkout permet de se repositionner sur une branche ou un commit, et donc à un moment précis de l'historique du projet.
 
+L'option ou commutateur -f permet de forcer la commande dans le cas ou une erreur se serait produite.
+
 Pour savoir sur quelle branche vous vous situez, utilisez la commande :
 
 git status
