@@ -22,19 +22,25 @@ Et voilà, votre dossier à été initialiser.
 
 La première étape consiste à créer un repository depuis github.
 
-Pour cela rendez vous dans le menu et sélectionner créer un repository.
+Pour cela rendez vous dans le menu en cliquant sur votre avatar et sélectionner créer un your repositories.
 
-Vous pourrez créer un repository en y créant un fichier README.md lors de la création en cochant une case.
+Depuis cette page vous trouverez un bouton new, cliquez dessus.
 
-Un fichier avec l'extension md ( markdown ) est un fichier qui vous permet d'éditer un texte avec certaines fonctionnalités comme insérer un lien, une mage, un titre, etc...
-
-Une fois votre repository créer, cliquez le bouton clone or download, vous aurez alors un code qui vous suffira de copier dans votre terminal
-
-![Tux, the Linux mascot](IMG/CLONE.PNG)
 ![Tux, the Linux mascot](IMG/NEW.PNG)
 
+Vous pourrez créer un repository en y créant un fichier README.md lors de la création si vous le désirez cochez alors la case, 
 
-Rendez vous dans le dossier dans lequelle vous souhaiter stocker votre repository, ensuite entrez la commande suivante :
+Initialize this repository with a README .
+
+Un fichier avec l'extension md ( markdown ) est un fichier qui vous permet d'éditer un texte avec certaines fonctionnalités comme insérer un lien, une image, un titre, etc...
+
+Une fois votre repository créer, cliquez le bouton clone or download, vous aurez alors un code qui vous suffira de copier dans votre terminal.
+
+![Tux, the Linux mascot](IMG/CLONE.PNG)
+
+
+
+Rendez vous dans le dossier dans lequel vous souhaiter stocker votre repository, ensuite entrez la commande suivante :
 
 git clone votreLienGitHub
 
