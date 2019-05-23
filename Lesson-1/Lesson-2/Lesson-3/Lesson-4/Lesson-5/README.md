@@ -1,5 +1,9 @@
 # Annuler des changements
 
+> Attention les tutoriels suivants sont inspirés de [This link](https://learngitbranching.js.org/)
+> Nous ferons de notre mieux pour y ajouter des informations supplémentaires
+
+
 
 ## Revert ou Reset ?
 
