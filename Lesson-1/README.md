@@ -95,9 +95,9 @@ Pushez signifie que votre vous allez envoyer votre dossier vers votre son reposi
 
 Cette commande envoye le dossier courant vers github, pour autant que vous soyez en droit de le faire bien sur.
 
-Attention si vous tentez un push sur un dossier qui contient des sous dossiers dans lequel des fichiers n'ont pas été ajouté avec la commande git add
+Attention si vous tentez un push sur un dossier qui contient des sous dossiers dans lequel des fichiers n'ont pas été ajouté avec la commande git add, vous aurez une erreur critique, de la même manière que si vous avez des sous dossiers dans le dossier que vous pusher depuis votre terminal qui n'existe pas dans le repository vous aurez une erreur critique.
 
-Il peut y avoir plusieurs raisons qui empêchent les commandes comme push de s'exécuter, mais pas de panique nous allons voir cela plus tard.vous aurez une erreur critique, de la même manière que si vous avez des sous dossiers dans le dossier que vous pusher depuis votre terminal qui n'existe pas dans le repository vous aurez une erreur critique.
+Il peut y avoir plusieurs raisons qui empêchent les commandes comme push de s'exécuter, mais pas de panique nous allons voir cela plus tard.
 
 Bravo, vous savez maintenant ajouter un fichier depuis votre ordinateur vers son repository github !
 
