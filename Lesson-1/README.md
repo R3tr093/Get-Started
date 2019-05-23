@@ -13,7 +13,7 @@ Maintenant avec votre toute première commande vous allez initialiser ce dossier
 
 Naviguer dans votre arborescence vers le dossier cible et lancez la commande suivante ::
 
-* git init *
+* git init 
 
 Et voilà, votre dossier à été initialiser.
 
@@ -42,7 +42,7 @@ Une fois votre repository créer, cliquez le bouton clone or download, vous aure
 
 Rendez vous dans le dossier dans lequel vous souhaiter stocker votre repository, ensuite entrez la commande suivante :
 
-* git clone votreLienGitHub *
+* git clone votreLienGitHub 
 
 
 Ceci aura pour effet de créer un clone du repository qui se trouvait sur gitHub dans le dossier à partir du quelle vous avez entrer la commande.
@@ -58,7 +58,7 @@ Un commit est similaire à un commentaire, il permet de garder un oeil sur les m
 
 Grâce aux commits vous saurez gardez une trace de vos modifications, pour faire un commit entrer la commande suivante
 
-* git commit -m " Correction du bug." *
+* git commit -m " Correction du bug." 
 
 Le commit est maintenant accessible sur github, mais aussi depuis votre terminal.
 
@@ -68,7 +68,7 @@ Les commits conservent la date du commit, un commentaire, un SHA ( l'identifiant
 
 Pour voir les commits effectuer sur une branche, vous pouvez utilisez la commande suivante ::
 
-* git log *
+* git log 
 
 Cette commande va afficher tout les commits effectuer sur la branche.
 
@@ -83,7 +83,7 @@ git add monFichier.txt
 
 Si vous avez beaucoup de fichiers, utilisez plutot la commande 
 
-* git add . *
+* git add . 
 
 En ajoutant un . plutot que le nom d'un fichier le terminal ajouteras alors tout les fichiers.
 
@@ -91,7 +91,7 @@ Cette commande va ajouter ce fichier vers le  dossier .git, félicitation votre 
 
 Pushez signifie que votre vous allez envoyer votre dossier vers votre son repository sur github, une dernière commande ( oui encore ) :
 
-* git push *
+* git push 
 
 Cette commande envoye le dossier courant vers github, pour autant que vous soyez en droit de le faire bien sur.
 
