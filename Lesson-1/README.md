@@ -28,9 +28,9 @@ Depuis cette page vous trouverez un bouton new, cliquez dessus.
 
 ![Tux, the Linux mascot](IMG/NEW.PNG)
 
-Vous pourrez créer un repository en y créant un fichier README.md lors de la création si vous le désirez cochez alors la case, 
+Vous pourrez créer un repository en y créant un fichier README.md, lors de la création si vous le désirez.
 
-Initialize this repository with a README .
+Si tel est le cas, cocher la case " Initialize this repository with a README ".
 
 Un fichier avec l'extension md ( markdown ) est un fichier qui vous permet d'éditer un texte avec certaines fonctionnalités comme insérer un lien, une image, un titre, etc...
 
