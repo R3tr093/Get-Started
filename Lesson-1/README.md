@@ -26,7 +26,7 @@ Pour cela rendez vous dans le menu et sélectionner créer un repository.
 
 Vous pourrez créer un repository en y créant un fichier README.md lors de la création en cochant une case.
 
-Un fichier avec l'extension md ( markdown ) et un fichier qui vous permet d'éditer un texte avec un style.
+Un fichier avec l'extension md ( markdown ) est un fichier qui vous permet d'éditer un texte avec certaines fonctionnalités comme insérer un lien, une mage, un titre, etc...
 
 Une fois votre repository créer, cliquez le bouton clone or download, vous aurez alors un code qui vous suffira de copier dans votre terminal
 
@@ -59,7 +59,7 @@ Le commit est maintenant accessible sur github, mais aussi depuis votre terminal
 
 Idéalement un commit est cours et précis, de cette maniére un rapide coup d'oeil vous indiquera en quelques mots le travail effectuer.
 
-Les commits conserve la date du commit, un commentaire, un SHA ( l'identifiant du commit), son auteur et son adresse mail github.
+Les commits conservent la date du commit, un commentaire, un SHA ( l'identifiant du commit), son auteur et son adresse mail github.
 
 Pour voir les commits effectuer sur une branche, vous pouvez utilisez la commande suivante ::
 
