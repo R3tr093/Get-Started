@@ -27,7 +27,10 @@ Un fichier avec l'extension md ( markdown ) et un fichier qui vous permet d'édi
 
 Une fois votre repository créer, cliquez le bouton clone or download, vous aurez alors un code qui vous suffira de copier dans votre terminal
 
-<!-- INSERER IMAGE -->
+![Tux, the Linux mascot](IMG/CLONE.PNG)
+![Tux, the Linux mascot](IMG/NEW.PNG)
+
+
 Rendez vous dans le dossier dans lequelle vous souhaiter stocker votre repository, ensuite entrez la commande suivante :
 
 git clone lienGithub
