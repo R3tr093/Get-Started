@@ -22,13 +22,13 @@ Voici les commandes qui vous permettent de manipuler les branches :
 
 Pour voir les branches présentes dans votre repository , utilisez la commande :: 
 
-* git branch -a * 
+* git branch -a 
 
 Elle vous retournera toutes les branches présentes, et ajouteras une étoile devant la branche dans laquelle vous êtes placés.
 
 Pour créer un nouvelle branche, il vous suffit d'ajouter le nom de la branche à créer à la suite de la commande suivante :
 
-* git branch ma-nouvelle-branche *
+* git branch ma-nouvelle-branche 
 
 Votre nouvelle branche hérite du contenu de la branche depuis laquelle vous l'avez instancier, si vous l'avez créer depuis votre branche master qui elle même contenait un dossier HTML  et un dossier CSS, alors votre nouvelle branche sera créer avec ces mêmes dossiers et les fichiers qui les composent.
 
@@ -36,7 +36,7 @@ Vous pouvez donc par exemple créer une branche monProjet-V1.0
 
 Pour vous placer dans une autre branche à l'intérieur de votre repository, vous allez de nouveau avoir besoin du mot clé checkout.
 
-* Git checkout ma-nouvelle-branche. *
+* Git checkout ma-nouvelle-branche. 
 
 Une fois sur cette branche vous pouvez toujours utilisez les commandes git status et et git log
 
@@ -48,11 +48,11 @@ Vous pouvez également utilisez le commutateur -f pour forcer la commande si une
 
 Lorsque vous travaillez sur plusieurs branches , il va souvent vous arriver de vouloir ajouter dans une branche A les mises à jour que vous avez faites dans une autre branche B . Pour cela , on se place dans la branche A.
 
-* git checkout brancheA * 
+* git checkout brancheA 
 
 Puis vous pouvez fusionner une branche dans la branche sur laquelle vous vous situez avec la commande git merge 
 
-* git merge brancheB *
+* git merge brancheB 
 
 En clair vous êtes aller sur la branche, brancheA, et vous avez demander d'y intégrer le contenu de la branche, brancheB
 
